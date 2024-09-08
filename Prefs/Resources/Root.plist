@@ -126,9 +126,9 @@
 			<key>min</key>
 			<integer>1</integer>
 			<key>max</key>
-			<integer>50</integer>
+			<integer>100</integer>
 			<key>recommendedMax</key>
-			<integer>10</integer>
+			<integer>15</integer>
 			<key>warningMessage</key>
 			<string>Having more than %@ geese on-screen could make your device unusable.</string>
 			<key>set</key>
