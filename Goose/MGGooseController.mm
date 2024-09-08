@@ -23,7 +23,7 @@ static NSPointerArray *sharedContainers;
 - (void)loadMeme {
 	BOOL isImage = [imageContainer isKindOfClass:[MGImageContainerView class]];
 	NSString *path = [NSString
-		stringWithFormat:@"/Library/MobileGoose/%@",
+		stringWithFormat:@"/var/jb/Library/MobileGoose/%@",
 		isImage ? @"Memes" : @"Notes"
 	];
 	NSArray *files = [NSFileManager.defaultManager contentsOfDirectoryAtPath:path error:nil];
